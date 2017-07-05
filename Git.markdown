@@ -10,7 +10,7 @@
 `git push -u origin master` | 将代码推送到 GitHub
 `git push` | 将代码推送到 GitHub
 `git status` | 检查 Git 状态
-`git log` | 显示 Git 提交记录
+`git log` | 显示 Git 提交记录（按 q 退出查看）
 `git checkout -f` | 从代码库里检出代码，放弃当前文件修改
 `git checkout master` | 将当前分支切换到 master 分支上
 `git checkout -b static-pages` | 创建一个名为 static-pages 的新分支
