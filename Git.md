@@ -16,3 +16,6 @@
 `git checkout -b static-pages` | 创建一个名为 static-pages 的新分支
 `git merge fake-branch` | 合并分支
 `git branch -d fake-branch` | 删除分支
+`git stash` | 备份当前的工作区的内容，从最近的一次提交中读取相关内容，让工作区保证和上次提交的内容一致。同时，将当前的工作区内容保存到Git栈中。
+`git stash pop` | 从Git栈中读取最近一次保存的内容，恢复工作区的相关内容。由于可能存在多个Stash的内容，所以用栈来管理，pop会从最近的一个stash中读取内容并恢复。
+`git pull` | 从另一个存储库或本地分支获取并集成(整合)。
